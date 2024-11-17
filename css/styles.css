@@ -1,0 +1,266 @@
+/* =========================== */
+/* General Styles */
+/* =========================== */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #f8f9fa;
+    padding: 50px 0;
+}
+
+.section {
+    padding: 60px 20px;
+}
+
+.bg-light-blue {
+    background: linear-gradient(135deg, #e7f3ff, #ffffff);
+}
+
+/* =========================== */
+/* Navbar Styles */
+/* =========================== */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.navbar a:hover {
+    color: #0056b3;
+}
+
+.navbar .nav-link.active {
+    background-color: var(--bs-primary);
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+/* =========================== */
+/* Footer Styles */
+/* =========================== */
+footer {
+    background: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* =========================== */
+/* Cards & Images */
+/* =========================== */
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-image,
+#activities img {
+    max-width: 100%;
+    height: 100px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Card Titles & Text */
+.card-title {
+    margin-top: 10px;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* =========================== */
+/* Buttons */
+/* =========================== */
+.btn-primary {
+    border: none;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #17a94a;
+}
+
+.spotify-btn {
+    background-color: #1DB954;
+    color: #FFFFFF;
+    border: none;
+}
+
+.spotify-btn:hover {
+    background-color: #1AA34A;
+}
+
+.youtube-btn {
+    background-color: #FF0000;
+    color: #FFFFFF;
+    border: none;
+}
+
+.youtube-btn:hover {
+    background-color: #CC0000;
+}
+
+/* =========================== */
+/* Parallax Styles */
+/* =========================== */
+#parallax {
+    background-image: url('/assets/backg_2.jpg');
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* =========================== */
+/* Skill Section */
+/* =========================== */
+.skill-level {
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.skill-square {
+    width: 10px;
+    height: 10px;
+    border-radius: 4px;
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+}
+
+.skill-square.filled {
+    background: linear-gradient(90deg, #007bff, #0056b3);
+    border: 1px solid #0056b3;
+}
+
+/* Legend */
+.legend-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.legend-text {
+    font-size: 0.9rem;
+    color: #333;
+}
+
+/* =========================== */
+/* Carousel Styles */
+/* =========================== */
+#modal-images img,
+.carousel-item img {
+    max-height: 500px;
+    object-fit: contain;
+    margin: 0 auto;
+}
+
+.always-visible {
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 10px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* =========================== */
+/* About Me Section */
+/* =========================== */
+.profile-image-wrapper {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    transform: rotate(-6deg);
+    border-radius: 50%;
+}
+
+.profile-image-wrapper img {
+    border-radius: 50%;
+    width: 100%;
+    max-width: 250px;
+}
+
+.highlight {
+    color: #1db954;
+    font-weight: bold;
+}
+
+.list-unstyled li {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.list-unstyled i {
+    color: #007bff;
+    margin-right: 0.5rem;
+}
+
+/* =========================== */
+/* Contact Section */
+/* =========================== */
+.contact-link {
+    font-size: 1rem;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}
+
+.bi {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+
+
+
+
+/* =========================== */
+/* Responsive Design */
+/* =========================== */
+@media (max-width: 768px) {
+    .projects-grid {
+        display: block;
+    }
+}

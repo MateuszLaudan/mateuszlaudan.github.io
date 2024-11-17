@@ -1,0 +1,40 @@
+<!-- My Projects Section -->
+<section id="projects" class="section bg-light-blue">
+    <div class="container">
+        <h2 class="section-heading">My Projects</h2>
+        <div id="projects-container" class="row">
+            <!-- Project cards will be dynamically inserted here -->
+        </div>
+    </div>
+</section>
+
+<!-- Project Modal -->
+<div class="modal fade" id="projectModal" tabindex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="projectModalLabel">Project Details</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- Carousel -->
+                <div id="projectCarousel" class="carousel slide" data-bs-interval="false">
+                    <div class="carousel-inner" id="carousel-inner">
+                        <!-- Slides will be dynamically inserted here -->
+                    </div>
+                    <!-- Carousel Controls -->
+                    <button class="carousel-control-prev always-visible" type="button" data-bs-target="#projectCarousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next always-visible" type="button" data-bs-target="#projectCarousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

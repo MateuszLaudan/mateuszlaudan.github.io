@@ -119,7 +119,6 @@ footer {
 /* Parallax Styles */
 /* =========================== */
 #parallax {
-    background-image: url('/assets/backg_2.jpg');
     height: 100vh;
     background-attachment: fixed;
     background-size: cover;

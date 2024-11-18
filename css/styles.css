@@ -252,6 +252,44 @@ footer {
     color: #333;
 }
 
+.project-card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #ffffff;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.project-image {
+    max-height: 150px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    color: #333;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    /* Smaller font size */
+    color: #555;
+    line-height: 1.5;
+    /* Improve readability */
+    text-align: justify;
+    /* Optional: Align text for a clean look */
+    margin-bottom: 1rem;
+    /* Add spacing below */
+}
+
+
+
 
 
 

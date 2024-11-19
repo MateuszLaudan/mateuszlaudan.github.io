@@ -8,7 +8,8 @@ function loadProjects() {
             additionalImages: ["assets/RIO_33.png", "assets/RIO_11.png", "assets/RIO_22.png", "assets/RIO_44.png"]
         }, {
             title: "SmartList",
-            description: `SmartList is a <strong>mobile app</strong> built with <strong>Flutter</strong> and powered by a <strong>MongoDB backend</strong>, currently available in <strong>closed testing</strong> on the Play Store. It allows users to <strong>create and manage shopping lists</strong> with <strong>real-time synchronization</strong> across devices. Designed with a <strong>clean and user-friendly interface</strong>, SmartList makes collaborative shopping effortless and efficient.`,
+            description: `SmartList is a <strong>mobile app</strong> built with <strong>Flutter</strong> and powered by a <strong>MongoDB backend</strong>, currently available in <strong>closed testing</strong> on the Play Store. It allows users to <strong>create and manage shopping lists</strong> with <strong>real-time synchronization</strong> across devices. Designed with a <strong>clean and user-friendly interface</strong>, SmartList makes collaborative shopping effortless and efficient. The app is <strong>used weekly</strong> by users to streamline their shopping experience.`,
+
             image: "assets/smartlist.png",
             additionalImages: ["assets/smartl_1.png", "assets/smartl_2.png", "assets/smartl_3.png"]
         }

@@ -49,7 +49,7 @@ function loadSkills() {
         { name: "NoSQL", level: 2 },
         { name: "REST API Design", level: 4 },
         { name: "CI/CD (GitHub Actions)", level: 3 },
-        { name: "VMs on Linux", level: 4 }
+        { name: "VMs on Linux", level: 3 }
     ];
 
     skills.forEach(skill => {

@@ -50,6 +50,7 @@ function loadSkills() {
         { name: "REST API Design", level: 4 },
         { name: "CI/CD (GitHub Actions)", level: 3 },
         { name: "VMs on Linux", level: 3 },
+        { name: 'JIRA', level: 4 },
         { name: "JavaScript, Java", level: 2 }
     ];
 

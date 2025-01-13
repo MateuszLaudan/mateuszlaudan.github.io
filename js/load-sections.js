@@ -51,7 +51,8 @@ function loadSkills() {
         { name: "CI/CD (GitHub Actions)", level: 3 },
         { name: "VMs on Linux", level: 3 },
         { name: 'JIRA', level: 4 },
-        { name: "JavaScript, Java", level: 2 }
+        { name: "JavaScript, Java", level: 2 },
+        { name: 'PyTorch', level: 2 }
     ];
 
     skills.forEach(skill => {

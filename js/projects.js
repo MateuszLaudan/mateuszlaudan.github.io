@@ -26,6 +26,24 @@ function loadProjects() {
             description: `Coffee AR is an <strong>augmented reality app</strong> built in <strong>Unity</strong> and <strong>C#</strong>, utilizing <strong>Google API</strong> for <strong>image recognition</strong>. The app scans coffee shop banners and QR codes to enhance the <strong>customer experience</strong> by providing interactive access to menu details. Coffee AR aims to blend innovation with convenience, delivering a modern approach to engaging customers in coffee shops.`,
             image: "assets/coffee_ar.png",
             additionalImages: ["assets/c_ar_1.jpg", "assets/c_ar_11.jpg", "assets/c_ar_3.png", "assets/c_ar_4.png"]
+        },
+        {
+            title: "Listify",
+            description: `Listify is an <strong>upgrade to the SmartList platform</strong>, designed as a <strong>web application</strong> leveraging <strong>Firebase services</strong>, including <strong>Authentication</strong>, <strong>Firestore</strong>, and <strong>Hosting</strong>. The app introduces a new feature for <strong>sharing lists</strong>, allowing users to collaborate and access shared lists in real-time. Listify combines enhanced functionality with a seamless user experience, providing a modern solution for efficient list management, collaboration and product categorization.`,
+            image: "assets/listify-logo.png",
+            additionalImages: ["assets/listify-1.jpg",
+                "assets/listify-2.jpg",
+                "assets/listify-3.jpg",
+                "assets/listify-4.jpg",
+                "assets/listify-5.jpg",
+                "assets/listify-6.jpg",
+                "assets/listify-7.jpg"]
+        },
+        {
+            title: "AI/ML PROJECTS",
+            description: `For learning purposes (and MA thesis), these are <strong>innovative projects</strong> that delve into the <strong>AI/ML field</strong>, showcasing cutting-edge techniques and applications. The portfolio includes a <strong>MLP model</strong> for generating unique names, a <strong>Transformer model</strong> for crafting Szeksipr drama, and a <strong>custom Transformer model</strong> for building a <strong>GPT-like framework</strong>. These projects aim to push the boundaries of AI/ML, blending creativity with advanced machine learning methodologies.`,
+            image: "assets/ml-ai.png",
+            additionalImages: [""]
         }
     ];
 
